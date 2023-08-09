@@ -1,0 +1,11 @@
+#--------------------------------------------------------------
+# Simple AWS CodeDeploy Config File
+#
+# Copyleft (c) by Alexander Shlykov
+#--------------------------------------------------------------
+
+version: 0.0
+os     : windows
+files:
+  - source     : \
+    destination: C:\inetpub\wwwroot
